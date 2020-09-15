@@ -11,19 +11,24 @@
 
 // 2. Set your own initial variables
 // Update the blue shade, used for links
+$white: #fff;
 $blue: #06bcef;
 // Add pink and its invert
 // $pink: #ff8080;
-$pink: #ffeedd;
-$pink-invert: #fff;
+// $pink: #ffeedd;
+$color1: #41afbe;
+$invert: #BE5041;
+$color2: #4170BE;
+$color3: #41BE8F;
 // Update the sans-serif font family
 $family-sans-serif: "Ubuntu", "Arial", sans-serif;
 $family-serif: "Times", serif;
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $pink;
-$primary-invert: $black;
-
+$primary: $color1;
+$primary-invert: $white;
+$link: $color2;
+$text: $black;
 // 4. Import the rest of Bulma
 
 
@@ -35,6 +40,7 @@ $primary-invert: $black;
 .hero-foot {
 	padding: 1em;
 }
+
 
 // full width iframes
 .embed-responsive {
@@ -54,6 +60,8 @@ $primary-invert: $black;
 
 h1, h2, h3 {
 //	text-align: center;
+	padding: 1em;
+	color: $invert;
 	@extend .has-text-centered;
 }
 
@@ -65,6 +73,17 @@ p {
 	@extend .is-primary;
 	@extend .has-text-justified;
 }
+
+ul {
+	list-style: initial;
+}
+ol {
+	list-style: numbered;
+}
+ol, ul {
+	padding: 1.5em;
+}
+
 // html { background-color: $green;}
 /* .embed-responsive-item { */
 /* 	width: 16em; */
