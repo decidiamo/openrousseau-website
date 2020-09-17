@@ -1,67 +1,244 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Decidiamo! ma con tecnologia libera ed open source</title>
-        <meta name="description" content="Evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive." />
-        <meta name="keywords" content="rousseau, m5s, democrazia, partecipativa, open source" />
-        <meta charset="utf-8" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive." />
+    <meta name="keywords" content="rousseau, m5s, democrazia, partecipativa, open source" />
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <meta name="robots" content="noindex">
+    
+    <title>Decidiamo! ma con tecnologia libera ed open source</title>
+    
+    <!-- Bootstrap Italia CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-italia@1.4.1/dist/css/bootstrap-italia.min.css" rel="stylesheet">
+    
+    <!-- OpenRousseau custom CSS -->
+    <link href="/css/main.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
-        <link rel="stylesheet" href="css/main.css">
-
-        <!-- Open Graph for social networks -->
-        <meta property="og:title" content="Insert title for social networks" />
-        <meta property="og:description"
-              content="Insert description for social networks" />
-        <meta property="og:type" content="" />
-        <meta property="og:image" content="/img/large_picture.png" />
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@OpenRousseau">
-        <meta name="twitter:title" content="Decidiamo! ma con tecnologia libera ed open source!">
-        <meta name="twitter:description"
-              content="Evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive." />
-        <meta name="twitter:image" content="/img/large_picture.png">
-        <!-- <link rel="shortcut icon" href="https://dyne.org/favicon.ico"> -->
-        <link rel="twitter" type="text/html" href="http://twitter.com/OpenRousseau">
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-        <!-- <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/united/bulmaswatch.min.css">
-        -->
-    </head>
-    <body>
-
-        <section class="hero is-primary is-bold">
-            <div class="hero-head">
-				<div class="container">
-					<h1 class="title">OpenRousseau</h1>
-					<h2 class="subtitle">Piattaforma per la democrazia partecipativa basata su software libero</h2>
-				</div>
-            </div>
-            <!-- <div class="hero-body"> -->
-			<!-- 	<div class="container"> -->
-			<!-- 		<div class="embed-responsive" width="100%" height="100%"> -->
-			<!-- 			<iframe src="https://www.youtube.com/watch?v=iLyyTBVFogE" allowfullscreen></iframe> -->
-			<!-- 		</div> -->
-			<!-- 	</div> -->
-            <!-- </div> -->
-            <div class="hero-foot">
-				<div class="container">
-					Open Rousseau è l’evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive. La sua natura di software libero permette la sovranità digitale, cioè l’uso indipendente del sistema da parte di qualsiasi organizzazione.
-				</div>
-            </div>
-		</section>
-		
-
-        <section class="section">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" href="/assets/Emblem32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/Emblem16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/assets/manifest.json">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#0066CC">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#0066CC">
+    
+    <!-- Twitter -->
+    <meta name="twitter:creator" content="Dyne.org">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@https://twitter.com/OpenRousseau">
+    <meta name="twitter:title" content="Decidiamo! ma con tecnologia libera ed open source!">
+    <meta name="twitter:description"
+    content="Evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive." />
+    <meta name="twitter:image" content="/img/large_picture.png">
+    <link rel="twitter" type="text/html" href="http://twitter.com/OpenRousseau">
+    
+    <!-- Facebook -->
+    <meta property="og:url" content="/">
+    <meta property="og:title"
+    content="Decidiamo! ma con tecnologia libera ed open source!">
+    <meta property="og:description"
+    content="Evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive." />
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/img/favicons/social-card.png">
+    <meta property="og:image:secure_url" content="/img/favicons/social-card.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+</head>
+<body>
+    
+    <div class="it-header-wrapper">
+        <div class="it-header-slim-wrapper">
             <div class="container">
-
-				<markdown>
-# Cosa è Open Rousseau
+                <div class="row">
+                    <div class="col-12">
+                        <div class="it-header-slim-wrapper-content">
+                            <a class="d-none d-lg-block navbar-brand" href="https://decidiamo.it/">Decidiamo</a>
+                            <div class="nav-mobile">
+                                <nav>
+                                    <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu-principale" role="button" aria-expanded="false" aria-controls="menu-principale">
+                                        <span>Decidiamo</span>
+                                        <svg class="icon">
+                                            <use xlink:href="/assets/sprite.svg#it-expand"></use>
+                                        </svg>
+                                    </a>
+                                    <div class="link-list-wrapper collapse" id="menu-principale">
+                                        <ul class="link-list">
+                                            <li><a href="https://dyne.org">Dyne.org</a></li>
+                                            <li><a href="https://decidiamo.it">Decidiamo.it</a></li>
+                                            <li><a href="https://decidim.org">Decidim.org</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="it-nav-wrapper">
+            <div class="it-header-center-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="it-header-center-content-wrapper">
+                                <div class="it-brand-wrapper">
+                                    <a href="#">
+                                        <div class="it-brand-text">
+                                            <h2 class="no_toc">OpenRousseau</h2>
+                                            <h3 class="no_toc d-none d-md-block">Piattaforma per la democrazia partecipativa basata su software libero</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="it-right-zone">
+                                    <div class="it-socials d-none d-md-flex">
+                                        <span>Partecipa su</span>
+                                        <ul>
+                                            <li>
+                                                <a href="https://github.com/decidiamo" aria-label="Github" target="_blank">
+                                                    <svg class="icon">
+                                                        <use xlink:href="/assets/sprite.svg#it-github"></use>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/OpenRousseau" target="_blank" aria-label="Twitter">
+                                                    <svg class="icon">
+                                                        <use xlink:href="/assets/sprite.svg#it-twitter"></use>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://t.me/openrousseau" target="_blank" aria-label="Telegram">
+                                                    <i class="fab fa-telegram icon"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="it-header-navbar-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            
+                            <nav class="navbar navbar-expand-lg has-megamenu">
+                                <button class="custom-navbar-toggler" type="button" aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav10">
+                                    <svg class="icon">
+                                        <use xlink:href="/assets/sprite.svg#it-burger"></use>
+                                    </svg>
+                                </button>
+                                <div class="navbar-collapsable" id="nav10">
+                                    <div class="overlay"></div>
+                                    <div class="close-div sr-only">
+                                        <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+                                    </div>
+                                    <div class="menu-wrapper">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item"><a class="nav-link" href="#cosè-open-rousseau"><span>Cos'è</span></a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#chi-siamo"><span>Chi siamo</span></a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#motivazioni"><span>Motivazioni</span></a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#componenti-software"><span>Componenti software</span></a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#democrazia-partecipata-secondo-le-linee-guida-dellagenzia-italia-digitale"><span>Democrazia partecipata</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section bg-bianco-sporco">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img class="img-fluid" src="/assets/OpenRousseau.svg" alt="Logo OpenRousseau"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section bg-radial-blue pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-white max-w-40 mt-5">
+                        Open Rousseau è l’evoluzione libera ed aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive.<br>
+                        La sua natura di software libero permette la sovranità digitale, cioè l’uso indipendente del sistema da parte di qualsiasi organizzazione.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container position-relative py-2 py-md-4">
+            <div class="row d-flex align-items-center px-4 px-md-0 py-2 py-md-5">
+                <div class="col-sm-6 order-1 text-center py-3 py-md-0">
+                    <img src="/assets/potere.svg" alt="Una rete politica" class="img-fluid">
+                </div>
+                
+                <div class="col-sm-6 order-2">
+                    <h1 class="m-md-3">il potere di una rete politica</h1>
+                    <div class="m-md-3">
+                        <p>Richiede deliberazione, collaborazione e decisione in una dimensione enorme, con migliaia di persone che partecipano in tempo reale.
+                        Contribuisci alle piattaforme abilitanti</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="alternateblock">
+        <div class="container position-relative py-2 py-md-4">
+            <div class="row d-flex align-items-center px-4 px-md-0 py-2 py-md-5">
+                <div class="col-sm-6 order-md-2 text-center py-3 py-md-0">
+                    <img src="/assets/comunità.svg" alt="consultazioni dei cittadini" class="img-fluid">
+                </div>
+                
+                <div class="col-sm-6 order-md-1">
+                    <h1 class="m-md-3 text-md-right">iniziative e consultazioni dei cittadini</h1>
+                    <div class="m-md-3 text-md-right">
+                        <p>Dai potere alla tua comunità attraverso iniziative dei cittadini. Promuovere votazioni pertinenti tramite consultazioni.</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container position-relative py-2 py-md-4">
+            <div class="row d-flex align-items-center px-4 px-md-0 py-2 py-md-5">
+                <div class="col-sm-6 order-1 text-center py-3 py-md-0">
+                    <img src="/assets/bilancio.svg" alt="Bilanci partecipativi" class="img-fluid">
+                </div>
+                
+                <div class="col-sm-6 order-2">
+                    <h1 class="m-md-3">bilanci partecipativi</h1>
+                    <div class="m-md-3">
+                        <p>Analizza le proposte presentate e promuove un nuovo modo di distribuire risorse comuni.</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="gg" class="container my-4">
+        <markdown>
+# Cos'è Open Rousseau
 
 OpenRousseau nasce sulla base di [DECIDIM](https://decidim.org), soluzione con codice libero di democrazia partecipata, [già impiegato con successo a Barcellona](https://www.forumpa.it/pa-digitale/infrastrutture-digitali-democratiche-per-la-partecipazione-dei-cittadini-la-piattaforma-decidim-barcelona/) per il 75% dei suoi bandi di appalto.
 
@@ -105,40 +282,214 @@ Il Backend sarà invece basato sul software Ruby on Rails Decidim, a cui saranno
 ## Democrazia Partecipata secondo le Linee Guida dell’Agenzia Italia Digitale
 
 Riteniamo che le piattaforme tecnologiche di Democrazia Partecipata debbano rispettare i più rigidi criteri di trasparenza, riuso e sovranità digitale secondo i medesimi criteri definiti dall'Agenzia per l’Italia Digitale (Ora Ministero Innovazione Tecnologica): **il software deve essere completamente open source**.
+            
+        </markdown>
+    </div>
 
-				</markdown>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h1 class="title">Partecipa</h1>
+    <section id="partecipa">
+        <div class="container">
+            <div class="mb-3 mb-md-5 text-white">
+                <h1>Partecipa</h1>
                 <h2 class="subtitle">Il Progetto Open Rousseau si coordina e sviluppa in modo trasparente e aperto</h2>				
-                <p class="has-text-centered">
-				<a href="https://github.com/openrousseau"><i class="fab fa-github"></i> OpenRousseau su GitHub</a> <br />
-                <a href="https://twitter.com/OpenRousseau"><i class="fab fa-twitter"></i> OpenRousseau su Twitter</a> <br />
-				<a href="https://t.me/openrousseau"><i class="fab fa-telegram"></i> OpenRousseau su Telegram</a>
-                </p>
+                <div class="row mt-5">
+                    <div class="col-md-4 col-sm-4">
+                        <a href="http://github.com/decidiamo" class="btn btn-outline-secondary btn-lg btn-icon">
+                            <span class="rounded-icon">
+                              <svg class="icon icon-success"><use xlink:href="/assets/sprite.svg#it-github"></use></svg>
+                            </span>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <a href="http://twitter.com/OpenRousseau" class="btn btn-outline-secondary btn-lg btn-icon">
+                            <span class="rounded-icon">
+                              <svg class="icon icon-success"><use xlink:href="/assets/sprite.svg#it-twitter"></use></svg>
+                            </span>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <a href="http://t.me/openrousseau" class="btn btn-outline-secondary btn-lg btn-icon">
+                            <span class="rounded-icon">
+                              <i class="fab fa-telegram icon"></i>
+                            </span>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
+    
+    
+    <footer class="it-footer">
+        <div class="it-footer-main">
+            <div class="container">
+                <section>
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <div class="it-brand-wrapper">
+                                <a href="#">
+                                    <img class="icon" src="/assets/emblem_inv.svg"></img>
+                                    <div class="it-brand-text">
+                                        <h2 class="no_toca">OpenRousseau</h2>
+                                        <h3 class="no_toc d-none d-md-block">Piattaforma per la democrazia partecipativa basata su software libero</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 pb-2">
+                            <h4>
+                                <a href="#" title="Vai alla pagina: Amministrazione">Amministrazione</a>
+                            </h4>
+                            <div class="link-list-wrapper">
+                                <ul class="footer-list link-list clearfix">
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Giunta e consiglio">Giunta e consiglio</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Aree di competenza">Aree di competenza</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Dipendenti">Dipendenti</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Luoghi">Luoghi</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Associazioni e società partecipate">Associazioni e società partecipate</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 pb-2">
+                            <h4>
+                                <a href="#" title="Vai alla pagina: Servizi">Servizi</a>
+                            </h4>
+                            <div class="link-list-wrapper">
+                                <ul class="footer-list link-list clearfix">
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Pagamenti">Pagamenti</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Sostegno">Sostegno</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Domande e iscrizioni">Domande e iscrizioni</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Segnalazioni">Segnalazioni</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Autorizzazioni e concessioni">Autorizzazioni e concessioni</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Certificati e dichiarazioni">Certificati e dichiarazioni</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 pb-2">
+                            <h4>
+                                <a href="#" title="Vai alla pagina: Novità">Novità</a>
+                            </h4>
+                            <div class="link-list-wrapper">
+                                <ul class="footer-list link-list clearfix">
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Notizie">Notizie</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Eventi">Eventi</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Comunicati stampa">Comunicati stampa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6">
+                            <h4>
+                                <a href="#" title="Vai alla pagina: Documenti">Documenti</a>
+                            </h4>
+                            <div class="link-list-wrapper">
+                                <ul class="footer-list link-list clearfix">
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Progetti e attività">Progetti e attività</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Delibere, determine e ordinanze">Delibere, determine e ordinanze</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Bandi">Bandi</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Concorsi">Concorsi</a></li>
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Albo pretorio">Albo pretorio</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-4 border-white border-top">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 pb-4">
+                            <h4><a href="#" title="Vai alla pagina: Contatti">Contatti</a></h4>
+                            <p>
+                                <strong>Comune di Lorem Ipsum</strong><br> Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+                            </p>
+                            <div class="link-list-wrapper">
+                                <ul class="footer-list link-list clearfix">
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Posta Elettronica Certificata">
+                                        Tutti i materiali contenuti in questa pagina sono liberi
+                                    </a></li>
+                                        Creative Commons (<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">BY-NC-SA 3.0</a>)
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 pb-2">
+                            <div class="pb-2">
+                                <h4><a href="#" title="Vai alla pagina: Seguici su" class="">Seguici su</a></h4>
+                                <ul class="list-inline text-left social">
+                                    <li class="list-inline-item"><a class="p-2 text-white" href="https://twitter.com/openrousseau" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/assets/sprite.svg#it-twitter"></use></svg><span class="sr-only">Twitter</span></a></li>
+                                    <li class="list-inline-item"><a class="p-2 text-white" href="https://github.com/decidiamo" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/assets/sprite.svg#it-github"></use></svg><span class="sr-only">Github</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-4 border-white border-top">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 pb-4">
+                            <h4><a href="#" title="Vai alla pagina: Contatti">Credits</a></h4>
+                            <p>
+                                <strong>Comune di Lorem Ipsum</strong><br> Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+                            </p>
+                            <div class="link-list-wrapper">
+                                <ul class="footer-list link-list clearfix">
+                                    <li><a class="list-item" href="#" title="Vai alla pagina: Posta Elettronica Certificata">
+                                        Tutti i materiali contenuti in questa pagina sono liberi
+                                    </a></li>
+                                        Creative Commons (<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">BY-NC-SA 3.0</a>)
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 pb-2">
+                            <div class="pb-2">
+                                <h4><a href="#" title="Vai alla pagina: Seguici su" class="">Seguici su</a></h4>
+                                <ul class="list-inline text-left social">
+                                    <li class="list-inline-item"><a class="p-2 text-white" href="https://twitter.com/openrousseau" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/assets/sprite.svg#it-twitter"></use></svg><span class="sr-only">Twitter</span></a></li>
+                                    <li class="list-inline-item"><a class="p-2 text-white" href="https://github.com/decidiamo" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/assets/sprite.svg#it-github"></use></svg><span class="sr-only">Github</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="it-footer-small-prints clearfix">
+            <div class="container">
+                <h3 class="sr-only">Sezione Link Utili</h3>
+                <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+                    <li class="list-inline-item"><a href="/assets/press.zip" title="Press kit">Press kit</a></li>
+                    <li class="list-inline-item"><a href="#" title="Note Legali">Note legali</a></li>
+                    <li class="list-inline-item"><a href="#" title="Privacy-Cookies">Privacy policy</a></li>
+                    <li class="list-inline-item"><a href="#" title="Mappa del sito">Mappa del sito</a> </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="cookiebar bg-dark p-4 hide" aria-hidden="true" aria-live="polite">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-8">
+                    <span class="text-white small">Questo sito utilizza cookie tecnici, analytics e di terze parti.<br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.</span>
+                </div>
+                <div class="col-12 col-md-4 mt-4 mt-md-0 d-flex justify-content-end">
+                    <a class="btn btn-link" href="/privacy-policy/">Privacy policy</a>
+                    <button class="btn btn-primary mr-2" data-accept="cookiebar">Accetto</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <footer class="footer has-text-centered has-text-weight-light">
-                        <p>Tutti i materiali contenuti in questa pagina sono liberi</p>
-                        <p>Creative Commons (<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" style="color: #000">BY-NC-SA 3.0</a>)</p>
-        </footer>
-        <script type="text/javascript" src="lib/main.js"></script>
-        <!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="lib/flowtype.js"></script>
-        <script>
-         $('body').flowtype({
-             minimum   : 300,
-             maximum   : 1000,
-             minFont   : 12,
-             maxFont   : 36,
-             fontRatio : 40});
-        </script>
-
-    </body>
+    <a href="#" aria-hidden="true" data-attribute="back-to-top" class="back-to-top">
+        <svg class="icon icon-light">
+          <use xlink:href="/assets/sprite.svg#it-arrow-up"></use>
+        </svg>
+    </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-italia@1.4.1/dist/js/bootstrap-italia.bundle.min.js"></script>
+    <script src="/lib/main.js"></script>
+</body>
 </html>
-
+    

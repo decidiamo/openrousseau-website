@@ -19,3 +19,4 @@ build:
 	yarn run css-deploy
 	yarn run index-build
 	yarn run js-build
+	yarn run assets

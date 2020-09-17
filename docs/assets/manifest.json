@@ -1,0 +1,21 @@
+{
+  "name": "OpenRousseau",
+  "short_name": "OR",
+  "start_url": "/",
+  "theme_color": "#0066CC",
+  "background_color": "#0066CC",
+  "display": "standalone",
+  "description": "Piattaforma per la democrazia partecipativa basata su software libero",
+  "icons": [
+    {
+      "src": "/assets/Emblem192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/Emblem512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

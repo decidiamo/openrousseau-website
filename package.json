@@ -13,15 +13,16 @@
   "author": "Denis Roio <jaromil@dyne.org> (https://dyne.org)",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.0.0",
+    "autoprefixer": "9.8.6",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015-ie": "^6.7.0",
+    "bootstrap-italia": "^1.4.1",
     "bulma": "^0.9.0",
-    "http-server": "^0.12.3",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.3",
-    "postcss-cli": "^7.1.2"
+    "postcss-cli": "^7.1.2",
+    "watch-http-server": "^0.7.6"
   },
   "scripts": {
     "css-deploy": "npm-run-all css-build css-postcss",
@@ -33,7 +34,11 @@
     "js-watch": "npm run js-build -- --watch",
     "index-watch": "_shell/markdown-inline-tag -w views/index.html docs/index.html",
     "index-build": "_shell/markdown-inline-tag views/index.html docs/index.html",
-    "preview": "http-server ./docs",
+    "assets": "cp node_modules/bootstrap-italia/dist/svg/sprite.svg docs/assets",
+    "prepreview": "npm run assets",
+    "preview": "watch-http-server ./docs -o",
+    "prestart": "npm run assets",
     "start": "npm-run-all index-build css-build --parallel css-watch js-watch index-watch preview"
-  }
+  },
+  "dependencies": {}
 }

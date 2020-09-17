@@ -1,95 +1,54 @@
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap");
 
-// Customization
+$font-family-sans-serif: "Barlow", sans-serif;
+$font-family-serif: Georgia, sans-serif;
+$font-family-monospace:  "Courier New", Courier, monospace;
 
-// You can easily customize Bulma with your own variables.
-// Just uncomment the following block to see the result.
+// import libreria
+@import "../node_modules/bootstrap-italia/src/scss/bootstrap-italia";
 
+// customization for OpenRousseau
+$primary: #0066cc;
+$biancosporco: #F4F5F0; 
+$font-family-sans-serif: "Barlow", sans-serif;
+$font-family-serif: Georgia, sans-serif;
+$font-family-monospace:  "Courier New", Courier, monospace;
 
-// 1. Import the initial variables
-@import "../node_modules/bulma/sass/utilities/initial-variables";
-
-// 2. Set your own initial variables
-// Update the blue shade, used for links
-$white: #fff;
-$blue: #06bcef;
-// Add pink and its invert
-// $pink: #ff8080;
-// $pink: #ffeedd;
-$color1: #41afbe;
-$invert: #BE5041;
-$color2: #4170BE;
-$color3: #41BE8F;
-// Update the sans-serif font family
-$family-sans-serif: "Ubuntu", "Arial", sans-serif;
-$family-serif: "Times", serif;
-// 3. Set the derived variables
-// Use the new pink as the primary color
-$primary: $color1;
-$primary-invert: $white;
-$link: $color2;
-$text: $black;
-// 4. Import the rest of Bulma
-
-
-@import "../node_modules/bulma/bulma";
-
-.hero-head {
-	padding-top: 2em;
-}
-.hero-foot {
-	padding: 1em;
+html {
+  scroll-behavior: smooth;
 }
 
-
-// full width iframes
-.embed-responsive {
-    position: relative;
-    padding-bottom: 56.25%; // 16x9
-	// padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	iframe,	object, embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
+.it-header-center-wrapper
+  .it-header-center-content-wrapper
+  .it-right-zone
+  .it-socials
+  ul
+  .icon {
+  height: 38px;
+  width: 38px;
+  &.fa-telegram {
+    height: 34px;
+    width: 34px;
+    fill: white;
+    color: white;
+  }
 }
 
-h1, h2, h3 {
-//	text-align: center;
-	padding: 1em;
-	color: $invert;
-	@extend .has-text-centered;
+.bg-radial-blue {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%230066cc' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"),
+    radial-gradient(100% 100% at 50% 0%, #0073d1 0%, #00266b 100%);
 }
 
-img {
-	height: auto;
-	width: auto;
-}
-p {
-	@extend .is-primary;
-	@extend .has-text-justified;
+.bg-bianco-sporco {
+  background-color: #F4F5F0;
 }
 
-ul {
-	list-style: initial;
+#partecipa {
+    background-color: #2079d4;
+    background-image: url(/assets/partecipa-bg.svg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
 }
-ol {
-	list-style: numbered;
-}
-ol, ul {
-	padding: 1.5em;
-}
-
-// html { background-color: $green;}
-/* .embed-responsive-item { */
-/* 	width: 16em; */
-/* 	height: 9em; */
-/* } */
-/* .embed-responsive { */
-/* 	width: 16em; */
-/* 	height: 9em; */
-/* } */
