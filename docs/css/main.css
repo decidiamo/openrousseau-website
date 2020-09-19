@@ -19748,3 +19748,7 @@ html {
   background-position-y: center;
   background-repeat: no-repeat;
   padding: 2rem 0; }
+
+@media (min-width: 992px) {
+  .it-header-navbar-wrapper nav .navbar-collapsable .menu-wrapper {
+    background: rgba(255, 255, 255, 0.2); } }
