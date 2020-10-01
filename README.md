@@ -1,4 +1,18 @@
-# Webnomad for Bulma
+
+# Sito web di Openrousseau.org
+
+Il Progetto OpenRousseau nasce dalla volontà di promuovere l’adozione
+di tecniche per la democrazia partecipata guardando primariamente
+all'esperienza del Movimento 5 Stelle con la nota “piattaforma
+Rousseau” e all’esperienza di adozione in Spagna di tecnologie simili,
+ma libere e decentralizzate.
+
+Per saperne di piu' si puo' consultare il sito: https://openrousseau.org
+
+Qui trovate i codici sorgenti del sito e le istruzioni sulla sua
+manutenzione. Sono benvenute le pull-request per aggiunte e correzioni.
+
+# Istruzioni per la manutenzione di questo sito
 
 Template to build your own website using Webnomad styled in Bulma.
 
