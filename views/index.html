@@ -180,11 +180,14 @@
                 <div class="col-12">
                     <h2 class="text-white pl-3 max-w-40 mt-5 mb-5">
                         OpenRousseau è l’evoluzione libera e aperta della piattaforma utilizzata dal Movimento 5 Stelle per prendere decisioni collettive.<br>
-                        La sua natura di software libero permette la sovranità digitale, cioè l’uso indipendente del sistema da parte di qualsiasi organizzazione.
+                        La sua natura di software libero permette l'autonomia digitale, cioè l’uso indipendente del sistema da parte di qualsiasi organizzazione.
                     </h2>
                 </div>
                 <div class="col-12 mt-5 text-center">
-                    <a class="btn btn-outline-primary bg-white" href="#gg">Per saperne di più</a>
+                    <a class="btn btn-outline-primary bg-white mr-5" href="https://decidiamo.it/Principi_per_OpenRousseau.pdf">Leggi i 10 Principi di OpenRousseau</a>
+					<!-- </div>
+						 <div class="col-12 mt-5 text-center"> -->
+                    <a class="btn btn-outline-primary bg-white" href="#gg">Scopri chi siamo</a>
                 </div>
             </div>
         </div>
@@ -263,17 +266,21 @@
                 <markdown>
 # Cos'è OpenRousseau
 
-OpenRousseau nasce sulla base di [DECIDIM](https://decidim.org), una soluzione con codice libero di democrazia partecipata [già impiegata con successo a Barcellona](https://www.forumpa.it/pa-digitale/infrastrutture-digitali-democratiche-per-la-partecipazione-dei-cittadini-la-piattaforma-decidim-barcelona/) per il 75% dei suoi bandi di appalto.
+OpenRousseau intende facilitare l’interazione fra cittadini, politici e attivisti permettendo l’accesso a proposte e decisioni a distanza usando solo software libero ed open source il cui funzionamento sia verificabile e non sotto il controllo di un singolo ente, societa' o associazione.
 
-OpenRousseau intende facilitare l’interazione fra cittadini, politici e attivisti permettendo l’accesso a proposte e decisioni direttamente da telefonini e tablet integrando con DECIDIM la versione [“Mobile Rousseau” sviluppata dal M5S](https://github.com/associazione-rousseau/camelot-flutter).
+OpenRousseau nasce dal proposito di adottare una soluzione con codice libero di democrazia partecipata [già impiegata con successo a Barcellona](https://www.forumpa.it/pa-digitale/infrastrutture-digitali-democratiche-per-la-partecipazione-dei-cittadini-la-piattaforma-decidim-barcelona/) per il 75% dei suoi bandi di appalto.
+
+## Democrazia Partecipata secondo le linee guida del governo
+
+Riteniamo che le piattaforme tecnologiche di Democrazia Partecipata debbano rispettare i più rigidi criteri di trasparenza, riuso e sovranità tecnologica secondo i medesimi [criteri definiti dall'Agenzia per l’Italia Digitale](https://www.agid.gov.it/it/design-servizi/riuso-open-source): **il software deve essere completamente libero ed open source**.
 
 ## Chi siamo
 
-Guardiamo alla preziosa esperienza del Movimento 5 Stelle con l'Associazione Rousseau, ai suoi pregi (un grande movimento collaborativo e di stimolo partecipativo) ma anche ai suoi difetti (software di partecipazione privato e mancanza di sovranità digitale sui dati).
+Guardiamo alla preziosa esperienza del Movimento 5 Stelle con l'Associazione Rousseau, ai suoi pregi (un grande movimento collaborativo e di stimolo partecipativo) ma anche ai suoi difetti (software di partecipazione privato e mancanza di sovranità tecnologica sui dati).
 
 Riteniamo che la comunità informatica italiana con il progetto OpenRousseau possa dare uno strumento alla volontà di organizzazione, partecipazione e potere del popolo.
 
-La nostra associazione, per ora ancora informale, è [Decidiamo.it](http://decidiamo.it).
+La nostra associazione è [Decidiamo.it](http://decidiamo.it).
 
 Tra i promotori di questa iniziativa c'e' il portavoce [Denis Roio](https://www.linkedin.com/in/jaromil/) meglio conosciuto nella comunita' hacker italiana come [Jaromil](https://www.reddit.com/r/ItalyInformatica/comments/d6r8jh/ciao_sono_jaromil_di_dyneorg_e_questo_e_il_mio_ama/).
 
@@ -300,17 +307,14 @@ I software che abilitano la collaborazione di comunità attraverso la rete sono 
 * Backend: Il Server (che custodisce e tratta i dati, garantisce l’integrità e funzionalità)
 * Algoritmi: La Crittografia (che garantisce l'integrita' dei voti e dello spoglio)
 
-Il Progetto OpenRousseau offrirà la piena compatibilità applicativa con le 14 funzionalità erogate come servizio SAAS dalla Associazione Rousseau.
+Il Progetto OpenRousseau si propone di offrire la piena compatibilità applicativa con le 14 funzionalità erogate come servizio SAAS dalla Associazione Rousseau.
 
-Per fare ciò userà come Frontend mobile esattamente la stessa “app” per cellulare chiamata <a href="https://github.com/associazione-rousseau/camelot-flutter">Camelot Flutter</a>, sviluppata sin dall’inizio secondo paradigmi di software libero dall’attivista e sviluppatore Emanuel Mazzilli per conto della Associazione Rousseau.
+Per fare ciò userà come Frontend mobile esattamente la stessa “app” per cellulare chiamata [Camelot Flutter](https://github.com/associazione-rousseau/camelot-flutter), sviluppata sin dall’inizio secondo paradigmi di software libero dall’attivista e sviluppatore Emanuel Mazzilli con il suo team e per conto della Associazione Rousseau.
 
-Il Backend sarà invece basato sul software Ruby on Rails Decidim, a cui saranno apportati tutti i miglioramenti necessari (sempre rilasciati come codice libero e integrati nativamente nel software) per garantire la piena compatibilità con Camelot Flutter e con le 14 funzionalità del Backend Rousseau prodotto dalla medesima associazione.
+Il Backend sarà invece basato sul software Ruby on Rails [DECIDIM](https://decidim.org), a cui saranno apportati tutti i miglioramenti necessari (sempre rilasciati come codice libero) per garantire la piena compatibilità con l'app per cellulare, sostituendo il componente chiuso di proprieta' dell'associazione Rousseau.
 
-La Crittografia e' basata sulla ricerca condotta dalla fondazione Dyne.org per il progetto faro Europeo [DECODE](https://decodeproject.eu) in collaborazione con DECIDIM, in particolare adottando il [flusso di petizione sicura in Zencode](https://dev.zenroom.org/#/pages/zencode-scenarios-petition). 
+La Crittografia e' basata su [Zenroom](https://zenroom.org) un rivoluzionario strumento libero ed open source frutto della ricerca condotta dalla fondazione Dyne.org gia' in sviariati stati e citta' d'Europa. 
 
-## Democrazia Partecipata secondo le Linee Guida dell’Agenzia Italia Digitale
-
-Riteniamo che le piattaforme tecnologiche di Democrazia Partecipata debbano rispettare i più rigidi criteri di trasparenza, riuso e sovranità digitale secondo i medesimi criteri definiti dall'Agenzia per l’Italia Digitale (Ora Ministero Innovazione Tecnologica): **il software deve essere completamente libero ed open source**.
 
                 </markdown>
             </div>
